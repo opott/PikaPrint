@@ -1,5 +1,6 @@
 # Importing necessary libraries
 from pokemontcgsdk import Card
+from pokemontcgsdk import Set
 import subprocess
 import shlex
 
@@ -18,6 +19,8 @@ def get_card_info(setname, card_number):
 def main():
     # Get the deck id from the user
     setname = input("Enter deck id \n> ")
+    # Get the set name using the deck id
+    setname_full = Set.find(setname).name
     cards = []
 
     print("Enter card numbers one by one and press enter. Type done when finished.")
@@ -40,7 +43,7 @@ def main():
 
     # Write the cards info to a text file
     with open('PikaPrint_Output.txt', 'w+') as f:
-        f.writelines("Set: " + setname + "\n" + "\n".join(cards))
+        f.writelines("Set: " + setname_full + "\n" + "\n".join(cards))
 
     print("Would you like to send the file to your default printer? (y/n)")
     # Print the text file if the user types 'y'
