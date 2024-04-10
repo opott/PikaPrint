@@ -1,5 +1,5 @@
 # PikaPrint
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/a396faa728f04b7facd1b9bd8c870a82)](https://app.codacy.com/gh/opott/PikaPrint/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/92ed3a893c9142e9a243dd980c60d40d)](https://app.codacy.com/gh/opott/PikaPrint/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
 PikaPrint is a useful utility for Pokemon TCG collectors. It allows you to input a list of owned Pokemon cards in a set (e.g. all cards owned in Sword & Shield: Astral Radiance) and sort them into numerical order, fetch the name of the Pokemon associated with each card and store them into a text file for easy printing.
 
